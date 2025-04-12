@@ -16,7 +16,7 @@ const port = process.env.PORT || 8000;
 
 // Configuração do CORS
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || "https://hospital-ml7mgxvwx-jafetes-projects.vercel.app",
+  origin: process.env || "https://hospital-xi-nine.vercel.app/",
   methods: ["GET", "POST", "PUT", "DELETE"],
   allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true
